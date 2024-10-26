@@ -1,0 +1,8 @@
+.contador {
+  position: fixed;
+  bottom: 20px; 
+  left: 20px; 
+  font-size: 16px;
+  color: #cccccc;
+  z-index: 9999; 
+}

@@ -1,0 +1,24 @@
+.botao {
+  background-color: #4e28a765; 
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px; 
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s, opacity 0.3s; /* Transições suaves */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+
+  
+  position: fixed;
+  bottom: 100px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 9999; 
+}
+
+.botao:hover {
+  background-color: #00c441; 
+  opacity: 0.9; 
+  transform: translateX(-50%) scale(1.1);
+}
