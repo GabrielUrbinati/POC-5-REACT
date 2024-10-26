@@ -69,6 +69,7 @@ Este é um **Gerador de Curiosidades de Física Quântica** desenvolvido em **Re
 ├── public
 │   ├── fundo.png             # Imagem de fundo da página
 └── README.md                 # Arquivo de documentação do projeto
+```
 ## Componentes
 
 - **Botao.tsx**: Botão que, ao ser clicado, chama a função que gera uma nova curiosidade.
